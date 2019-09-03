@@ -1,9 +1,8 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{94EB9DEC-B9C2-4130-BC02-923325703FF3}") = "Sitecore.Support.94737", "Sitecore.Support.94737\Sitecore.Support.94737.csproj", "{00EDA91A-9268-46C6-BB2A-3972FC7C477C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Support.94737", "Sitecore.Support.94737\Sitecore.Support.94737.csproj", "{00EDA91A-9268-46C6-BB2A-3972FC7C477C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +17,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DEE6F35-A6C1-4350-ADA6-CF585C6AFF5A}
 	EndGlobalSection
 EndGlobal
