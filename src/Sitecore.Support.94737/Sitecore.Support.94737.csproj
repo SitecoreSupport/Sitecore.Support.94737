@@ -60,7 +60,9 @@
     <None Include="web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="sitecore\shell\Themes\Standard\Default\Dialogs.css" />
+    <Content Include="sitecore\shell\Themes\Standard\Default\Dialogs.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
